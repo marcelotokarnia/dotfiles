@@ -32,6 +32,4 @@ function setup
     abbr bb yarn build:back
     abbr bs yarn build & yarn start
     abbr s yarn start
-
-    fisher
 end
