@@ -1,0 +1,56 @@
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# deploy
+.vercel
+
+# build
+__sapper__
+node_modules
+coverage
+build/
+dist/
+
+# junit
+npm-debug.log
+yarn-error.log
+junit.xml
+test-report.xml
+
+# vsc
+\.vscode/
+\.vs/
+
+# CI
+/*.log
+
+# Erland
+*.beam
+
+# direnv
+.envrc

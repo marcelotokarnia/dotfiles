@@ -1,0 +1,15 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge --skip -- %f
+	process = git-lfs filter-process --skip
+	required = true
+[core]
+	excludesfile = /Users/marcelo.tokarnia/.gitignore_global
+	editor = /usr/bin/nano
+[user]
+	name = Marcelo Tokarnia
+	email = marcelo.tokarnia@gmail.com
+[push]
+	default = current
+[pull]
+	rebase = true
