@@ -31,3 +31,4 @@ cask 'visual-studio-code'
 cask 'vlc'
 
 mas 'Xcode', id: 497799835
+mas 'iMovie', id: 408981434
