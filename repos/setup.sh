@@ -20,11 +20,13 @@ find * -name "*.list" | while read fn; do
         then continue; else
             pushd "$REPO_PATH/$folder" &> /dev/null
             git clone $repo &> /dev/null
-            if [[ $? -eq 128 ]]; then
+            status="$?"
+            if [[ $status -eq 128 ]]; then
                 substep_success "$repo already exists."
-            elif [[ $? -eq 0 ]]; then
+            elif [[ $status -eq 0 ]]; then
                 substep_success "Cloned $repo."
             else
+                echo $status
                 substep_error "Failed to clone $repo."
             fi
             popd &> /dev/null
