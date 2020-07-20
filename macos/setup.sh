@@ -111,8 +111,8 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 # Enable press-and-hold for keys instead of key repeat
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool true
 
-# Set a blazingly fast keyboard repeat rate
-defaults write NSGlobalDomain InitialKeyRepeat -int 10
+# Set a fast keyboard repeat rate
+defaults write NSGlobalDomain InitialKeyRepeat -int 9
 defaults write NSGlobalDomain KeyRepeat -int 1
 
 # Set language and text formats

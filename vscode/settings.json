@@ -8,5 +8,6 @@
   "editor.minimap.enabled": false,
   "workbench.editor.highlightModifiedTabs": true,
   "prettier.singleQuote": true,
-  "liveshare.featureSet": "insiders"
+  "liveshare.featureSet": "insiders",
+  "yaml.format.singleQuote": true
 }

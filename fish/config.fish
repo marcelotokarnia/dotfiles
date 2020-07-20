@@ -13,6 +13,8 @@ set -x -g LANG en_GB.UTF-8
 # Coreutils bin and man folders
 set -x -g PATH (brew --prefix coreutils)/libexec/gnubin $PATH
 
+alias ...="cd ../.."
+
 # Colors
 set -U fish_color_match normal
 set -U fish_color_selection c0c0c0
