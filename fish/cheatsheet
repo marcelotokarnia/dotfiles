@@ -1,0 +1,6 @@
+# Change extension
+
+for f in *.ts                                                                            🐟 Thu 30 Jul 14:39:04 2020
+    set -l rootname (echo $f | sed 's/\.[^.]*$//')
+    mv $f (echo $rootname.d.ts)
+end
