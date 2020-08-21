@@ -2,6 +2,7 @@ tap 'homebrew/cask-cask'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'Schniz/tap'
+tap 'homebrew/cask-fonts'
 
 brew 'brew-cask-completion'
 brew 'chamber'
@@ -29,6 +30,7 @@ cask 'spectacle'
 cask 'spotify'
 cask 'visual-studio-code'
 cask 'vlc'
+cask 'font-victor-mono'
 
 mas 'Xcode', id: 497799835
 mas 'iMovie', id: 408981434

@@ -9,5 +9,9 @@
   "workbench.editor.highlightModifiedTabs": true,
   "prettier.singleQuote": true,
   "liveshare.featureSet": "insiders",
-  "yaml.format.singleQuote": true
+  "yaml.format.singleQuote": true,
+  "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+  "python.formatting.provider": "autopep8",
+  "editor.fontFamily": "Victor Mono",
+  "editor.fontLigatures": true
 }
