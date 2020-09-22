@@ -6,7 +6,7 @@ function setup
     abbr c "code ."
     
     abbr gs "git status"
-    abbr ga "git add ."
+    abbr ga "git add -A"
     abbr gc "git commit -m"
     abbr gl "git log"
     abbr gd "git diff"
