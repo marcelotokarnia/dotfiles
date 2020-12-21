@@ -3,6 +3,9 @@ set fish_emoji_width 2
 # User bin folder
 set -x -g PATH ~/bin ~/.local/bin $PATH /usr/local/sbin
 
+set -x -g GOPATH $HOME/go
+set -x -g GO111MODULE on
+
 set -x -g LS_COLORS "di=38;5;27:fi=38;5;7:ln=38;5;51:pi=40;38;5;11:so=38;5;13:or=38;5;197:mi=38;5;161:ex=38;5;9:"
 
 set -x -g TERM "xterm-256color"
@@ -18,6 +21,7 @@ alias ...="cd ../.."
 direnv hook fish | source
 
 set -gx PATH /Users/mtok/.fnm/current/bin $PATH
+set -gx PATH /Users/mtok/go/bin $PATH
 set -gx FNM_MULTISHELL_PATH /Users/mtok/.fnm/current;
 set -gx FNM_DIR /Users/mtok/.fnm;
 set -gx FNM_NODE_DIST_MIRROR https://nodejs.org/dist

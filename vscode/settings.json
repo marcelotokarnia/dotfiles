@@ -1,7 +1,7 @@
 {
   "files.autoSave": "onFocusChange",
   "editor.tabSize": 2,
-  "window.zoomLevel": 3,
+  "window.zoomLevel": 2,
   "breadcrumbs.enabled": true,
   "editor.formatOnSave": true,
   "window.openFilesInNewWindow": "on",
@@ -13,5 +13,24 @@
   "terminal.integrated.shell.osx": "/usr/local/bin/fish",
   "python.formatting.provider": "autopep8",
   "editor.fontFamily": "Victor Mono",
-  "editor.fontLigatures": true
+  "editor.fontLigatures": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "gopls": {
+    "formatting.gofumpt": true
+},
+"go.toolsManagement.autoUpdate": true
 }

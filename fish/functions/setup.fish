@@ -17,13 +17,13 @@ function setup
     abbr gp "git push"
     abbr gpf "git push --force"
 
-    abbr gr "git rebase origin/master"
+    abbr gr "git rebase origin/main"
     abbr grc "git rebase --continue"
     abbr gra "git rebase --abort"
     
     
     abbr gco "git checkout"
-    abbr gcm "git checkout master"
+    abbr gcm "git checkout main"
     abbr gcb "git checkout -"
     abbr ll "ls -lhA"
 
