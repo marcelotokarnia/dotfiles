@@ -12,15 +12,18 @@ set -x -g LANG en_GB.UTF-8
 
 # Coreutils bin and man folders
 set -x -g PATH (brew --prefix coreutils)/libexec/gnubin $PATH
-set -x -g PATH /Users/marcelo.tokarnia/Library/Python/3.7/bin $PATH
+set -x -g PATH /Users/mtok/Library/Python/3.7/bin $PATH
 
 alias ...="cd ../.."
+direnv hook fish | source
 
-set -gx PATH /Users/marcelo.tokarnia/.fnm/current/bin $PATH;                                                                                                                                                 🐟 Fri 24 Jul 14:09:57 2020
-set -gx FNM_MULTISHELL_PATH /Users/marcelo.tokarnia/.fnm/current;
-set -gx FNM_DIR /Users/marcelo.tokarnia/.fnm;
+set -gx PATH /Users/mtok/.fnm/current/bin $PATH
+set -gx FNM_MULTISHELL_PATH /Users/mtok/.fnm/current;
+set -gx FNM_DIR /Users/mtok/.fnm;
 set -gx FNM_NODE_DIST_MIRROR https://nodejs.org/dist
 set -gx FNM_LOGLEVEL info
+set -x DENO_INSTALL /Users/mtok/.deno
+set -x PATH $DENO_INSTALL/bin:$PATH
 
 
 # Colors
