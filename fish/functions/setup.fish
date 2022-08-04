@@ -13,7 +13,7 @@ function setup
     abbr gds "git diff --shortstat"
 
     abbr gf "git fetch"
-    abbr gpl "git pull --ff-only"
+    abbr gpl "git pull --ff-only origin (git rev-parse --abbrev-ref HEAD)"
     abbr gp "git push"
     abbr gpf "git push --force"
 

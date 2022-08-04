@@ -5,6 +5,8 @@ set -x -g PATH ~/bin ~/.local/bin $PATH /usr/local/sbin
 
 set -x -g GOPATH $HOME/go
 set -x -g GO111MODULE on
+set -x -g FLYCTL_INSTALL $HOME/.fly
+set -x -g PATH $FLYCTL_INSTALL/bin $PATH
 
 set -x -g LS_COLORS "di=38;5;27:fi=38;5;7:ln=38;5;51:pi=40;38;5;11:so=38;5;13:or=38;5;197:mi=38;5;161:ex=38;5;9:"
 
@@ -22,12 +24,19 @@ direnv hook fish | source
 
 set -gx PATH /Users/mtok/.fnm/current/bin $PATH
 set -gx PATH /Users/mtok/go/bin $PATH
+
+set -gx ANDROID_HOME $HOME/Library/Android/sdk
+set -gx PATH $ANDROID_HOME/emulator $PATH
+set -gx PATH $ANDROID_HOME/tools $PATH
+set -gx PATH $ANDROID_HOME/tools/bin $PATH
+set -gx PATH $ANDROID_HOME/platform-tools $PATH
 set -gx FNM_MULTISHELL_PATH /Users/mtok/.fnm/current;
 set -gx FNM_DIR /Users/mtok/.fnm;
 set -gx FNM_NODE_DIST_MIRROR https://nodejs.org/dist
 set -gx FNM_LOGLEVEL info
 set -x DENO_INSTALL /Users/mtok/.deno
-set -x PATH $DENO_INSTALL/bin:$PATH
+set -x PATH $DENO_INSTALL/bin $PATH
+set -x PKG_CONFIG_PATH /usr/local/opt/openssl@1.1/lib/pkgconfig/
 
 
 # Colors

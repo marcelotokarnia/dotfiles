@@ -1,7 +1,6 @@
 {
   "files.autoSave": "onFocusChange",
   "editor.tabSize": 2,
-  "window.zoomLevel": 2,
   "breadcrumbs.enabled": true,
   "editor.formatOnSave": true,
   "window.openFilesInNewWindow": "on",
@@ -31,6 +30,20 @@
   },
   "gopls": {
     "formatting.gofumpt": true
-},
-"go.toolsManagement.autoUpdate": true
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "bracketPairColorizer.depreciation-notice": false,
+  "redhat.telemetry.enabled": true,
+  "window.zoomLevel": 1
 }
