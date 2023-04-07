@@ -12,6 +12,8 @@ set -x -g LS_COLORS "di=38;5;27:fi=38;5;7:ln=38;5;51:pi=40;38;5;11:so=38;5;13:or
 
 set -x -g TERM "xterm-256color"
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 set -x -g LC_ALL en_GB.UTF-8
 set -x -g LANG en_GB.UTF-8
 

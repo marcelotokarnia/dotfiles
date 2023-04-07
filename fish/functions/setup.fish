@@ -33,4 +33,6 @@ function setup
     abbr bs "yarn build & yarn start"
     abbr s "yarn start"
     abbr fu "fnm use"
+
+    abbr karin "open https://practice.karindimitrovova.com/courses/enrolled/707539"
 end

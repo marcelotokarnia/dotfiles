@@ -5,8 +5,8 @@ cd "$DIR"
 
 . ../scripts/functions.sh
 
-SOURCE="$(realpath .)"
-DESTINATION="$(realpath ~)"
+SOURCE="/Users/mtok/repos/personal/dotfiles/git"
+DESTINATION="/Users/mtok"
 
 info "Configuraing git..."
 

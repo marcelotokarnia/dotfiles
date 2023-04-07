@@ -5,8 +5,10 @@ cd "$DIR"
 
 . ../scripts/functions.sh
 
-SOURCE="$(realpath -m .)"
-DESTINATION="$(realpath -m ~/.config/fish)"
+SOURCE="/Users/mtok/repos/personal/dotfiles/fish"
+DESTINATION="/Users/mtok/.config/fish"
+
+echo $DESTINATION
 
 info "Setting up fish shell..."
 
