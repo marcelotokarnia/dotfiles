@@ -27,12 +27,8 @@ function setup
     abbr gcb "git checkout -"
     abbr ll "ls -lhA"
 
-    abbr t "yarn test"
-    abbr b "yarn build"
-    abbr bb "yarn build:back"
-    abbr bs "yarn build & yarn start"
-    abbr s "yarn start"
-    abbr fu "fnm use"
+    abbr s "pnpm run dev"
 
     abbr karin "open https://practice.karindimitrovova.com/courses/enrolled/707539"
+    abbr mob "open https://www.matthewismith.com/products/mobility-flexibility-toolkit"
 end

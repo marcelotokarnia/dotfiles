@@ -3,8 +3,6 @@ set fish_emoji_width 2
 # User bin folder
 set -x -g PATH ~/bin ~/.local/bin $PATH /usr/local/sbin
 
-set -x -g GOPATH $HOME/go
-set -x -g GO111MODULE on
 set -x -g FLYCTL_INSTALL $HOME/.fly
 set -x -g PATH $FLYCTL_INSTALL/bin $PATH
 
@@ -25,19 +23,12 @@ alias ...="cd ../.."
 direnv hook fish | source
 
 set -gx PATH /Users/mtok/.fnm/current/bin $PATH
-set -gx PATH /Users/mtok/go/bin $PATH
 
 set -gx ANDROID_HOME $HOME/Library/Android/sdk
-set -gx PATH $ANDROID_HOME/emulator $PATH
-set -gx PATH $ANDROID_HOME/tools $PATH
-set -gx PATH $ANDROID_HOME/tools/bin $PATH
-set -gx PATH $ANDROID_HOME/platform-tools $PATH
 set -gx FNM_MULTISHELL_PATH /Users/mtok/.fnm/current;
 set -gx FNM_DIR /Users/mtok/.fnm;
 set -gx FNM_NODE_DIST_MIRROR https://nodejs.org/dist
 set -gx FNM_LOGLEVEL info
-set -x DENO_INSTALL /Users/mtok/.deno
-set -x PATH $DENO_INSTALL/bin $PATH
 set -x PKG_CONFIG_PATH /usr/local/opt/openssl@1.1/lib/pkgconfig/
 
 
@@ -67,3 +58,5 @@ set -U fish_color_end 009900
 set -U fish_color_error ff0000
 set -U fish_color_param 00afaf
 set -U fish_color_comment 990000
+
+setup
